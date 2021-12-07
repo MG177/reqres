@@ -14,7 +14,7 @@ export default function Users() {
           {users.length &&
             users.map((user) => {
               return (
-                <div key={user.id}>
+                <div key={user.id} className="users">
                   <p>
                     <strong>{user.first_name}</strong>
                   </p>
